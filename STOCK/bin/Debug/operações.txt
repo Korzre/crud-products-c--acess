@@ -1,0 +1,108 @@
+OPERAÇÕES CRUD
+
+Aplique adequadamente as operações abaixo aos eventos Click dos controles na aplicação.
+
+*Nomeie os componentes gráficos (name) para melhor percepção do código.
+*Edite os parâmetros nas instruções para que estas se adequem ao banco
+de dados.
+_____________________________________________________________________________________ 
+public void Carrega() {
+            try {
+                conexao = new OleDbConnection(strcon);
+                conexao.Open();
+                OleDbDataAdapter dataAdapter = new OleDbDataAdapter("SELECT * FROM ", conexao);
+                DataTable Formatabela = new DataTable();
+                dataAdapter.Fill(Formatabela);
+
+                tabela.Rows.Clear();
+                for (int i = 0; i < Formatabela.Rows.Count; i++)
+                {
+                    tabela.Rows.Add(
+                        Formatabela.Rows[i][0],
+                        Formatabela.Rows[i][1], 
+                        Formatabela.Rows[i][2],
+                        Formatabela.Rows[i][3]);
+                }
+            }catch(OleDbException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conexao.Close();
+            }
+        }
+____________________________________________________________________________________
+try
+            {
+                
+
+                conexao = new OleDbConnection(strcon);
+                conexao.Open();
+
+                comando = new OleDbCommand("INSERT INTO produtos(descricao, preco, categoria)VALUES('" + descricao+ "','" +
+                    preco+ "','" + categoria + "')", conexao);
+                comando.ExecuteNonQuery();
+
+                Carrega();
+                
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally {
+                conexao.Close();
+            }
+
+____________________________________________________________________________________
+if (e.RowIndex < 0 || e.ColumnIndex < 0)
+                return;
+
+            campo1.Text = tabela.Rows[e.RowIndex].Cells[0].Value.ToString() + "";
+            campo2.Text = tabela.Rows[e.RowIndex].Cells[1].Value.ToString() + "";
+            campo3.Text = tabela.Rows[e.RowIndex].Cells[2].Value.ToString() + "";
+            campo4.Text = tabela.Rows[e.RowIndex].Cells[3].Value.ToString() + "";
+____________________________________________________________________________________
+ try
+            {
+                
+                conexao = new OleDbConnection(strcon);
+                conexao.Open();
+                OleDbCommand actualizar = new OleDbCommand("UPDATE tabela SET campo1='" + valor1 + "', campo2='" + valor2 + "', campo3='" + valor3 + "' WHERE chave='" + valor + "'", conexao);
+                
+                actualizar.ExecuteNonQuery();
+
+                MessageBox.Show("Dados alterados com sucesso!");
+                Carrega();
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show("Ocorreu um erro ao tentar actualizar o registo\n" + ex.Message);
+            }
+            finally {
+                conexao.Close();
+            }
+_____________________________________________________________________________________
+try
+            {
+                
+                conexao = new OleDbConnection(strcon);
+                conexao.Open();
+                OleDbCommand actualizar = new OleDbCommand("DELETE FROM tabela WHERE campo='" + valor + "'", conexao);
+                
+                actualizar.ExecuteNonQuery();
+
+                MessageBox.Show("Registo eliminado!");
+                Carrega();
+            }
+            catch (OleDbException ex)
+            {
+                MessageBox.Show("Ocorreu um erro ao tentar eliminar o registo\n" + ex.Message);
+            }
+            finally {
+                conexao.Close();
+            }
+_____________________________________________________________________________________
+Application.Exit();
+_____________________________________________________________________________________

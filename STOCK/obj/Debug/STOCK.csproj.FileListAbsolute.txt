@@ -1,0 +1,43 @@
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.exe.config
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.exe
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.pdb
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csprojResolveAssemblyReference.cache
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.Form1.resources
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.Properties.Resources.resources
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csproj.GenerateResource.Cache
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.exe
+c:\users\hp user\documents\visual studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.pdb
+C:\Users\Hp User\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\Interop.WMPLib.dll
+C:\Users\Hp User\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Hp User\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csproj.ResolveComReference.cache
+C:\Users\Hp User\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\Interop.WMPLib.dll
+C:\Users\Hp User\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\AxInterop.WMPLib.dll
+F:\STOCK\STOCK\bin\Debug\STOCK.exe.config
+F:\STOCK\STOCK\obj\Debug\Interop.WMPLib.dll
+F:\STOCK\STOCK\obj\Debug\AxInterop.WMPLib.dll
+F:\STOCK\STOCK\obj\Debug\STOCK.csproj.ResolveComReference.cache
+F:\STOCK\STOCK\obj\Debug\STOCK.exe
+F:\STOCK\STOCK\obj\Debug\STOCK.pdb
+F:\STOCK\STOCK\bin\Debug\STOCK.exe
+F:\STOCK\STOCK\bin\Debug\STOCK.pdb
+F:\STOCK\STOCK\bin\Debug\Interop.WMPLib.dll
+F:\STOCK\STOCK\bin\Debug\AxInterop.WMPLib.dll
+F:\STOCK\STOCK\obj\Debug\STOCK.csprojResolveAssemblyReference.cache
+F:\STOCK\STOCK\obj\Debug\STOCK.Form1.resources
+F:\STOCK\STOCK\obj\Debug\STOCK.Form2.resources
+F:\STOCK\STOCK\obj\Debug\STOCK.Properties.Resources.resources
+F:\STOCK\STOCK\obj\Debug\STOCK.csproj.GenerateResource.Cache
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.exe.config
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\Interop.WMPLib.dll
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csproj.ResolveComReference.cache
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.exe
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.pdb
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.exe
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\STOCK.pdb
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\Interop.WMPLib.dll
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csprojResolveAssemblyReference.cache
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.Form1.resources
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.Properties.Resources.resources
+C:\Users\Korzre\Documents\Visual Studio 2012\Projects\STOCK\STOCK\obj\Debug\STOCK.csproj.GenerateResource.Cache
